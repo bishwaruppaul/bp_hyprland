@@ -72,7 +72,6 @@ button:hover {
 #network,
 #pulseaudio,
 #wireplumber,
-#taskbar,
 #bluetooth,
 #tray {
     padding: 0 10px;
@@ -87,18 +86,33 @@ button:hover {
 }
 
 /* If workspaces is the leftmost module, omit left margin */
-.modules-left > widget:first-child > #workspaces {
+.modules-left>widget:first-child>#workspaces {
     margin-left: 0;
 }
 
 /* If workspaces is the rightmost module, omit right margin */
-.modules-right > widget:last-child > #workspaces {
+.modules-right>widget:last-child>#workspaces {
     margin-right: 0;
 }
 
 #taskbar {
     background-color: #3E3E3E;
     color: #ffffff;
+    border-radius: 15px;
+}
+
+#taskbar button {
+    padding: 0 10px;
+    /* Adjust padding as needed */
+    border: 2px solid transparent;
+    /* Ensure a transparent border exists for all buttons */
+    border-radius: 15px;
+}
+
+#taskbar button.active {
+    border: 2px solid transparent;
+    /* Apply your active border color */
+    border-radius: 15px;
 }
 
 #bluetooth {
@@ -116,7 +130,8 @@ button:hover {
     color: #ffffff;
 }
 
-#battery.charging, #battery.plugged {
+#battery.charging,
+#battery.plugged {
     color: #ffffff;
     background-color: #3E3E3E;
 }
@@ -173,11 +188,11 @@ label:focus {
     color: #ffffff;
 }
 
-#tray > .passive {
+#tray>.passive {
     -gtk-icon-effect: dim;
 }
 
-#tray > .needs-attention {
+#tray>.needs-attention {
     -gtk-icon-effect: highlight;
     background-color: #F4692E;
 }
