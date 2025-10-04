@@ -21,3 +21,5 @@ Prerequisites:
 18. hyprpicker (Color picker)
 19. hyprshot (Screenshot)
 20. nemo (File manager)
+
+SDDM theme: ![sddm-astronaut-theme](https://github.com/Keyitdev/sddm-astronaut-theme/tree/master?tab=readme-ov-file)
