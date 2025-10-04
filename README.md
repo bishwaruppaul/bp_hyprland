@@ -1,2 +1,3 @@
-# bp_hyprland
-Personal Hyprland dotfiles
+# My Hyprland RICE
+
+Dotfiles for my personal Hyprland configuration
