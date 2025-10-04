@@ -1,0 +1,1 @@
+stow -d ~/Documents/Projects/bp_hyprland/ -t ~/ dotfiles
