@@ -7,7 +7,7 @@ Prerequisites:
 2. hyprpaper (Wallpaper)
 3. hyprlock (Screen lock)
 4. hypridle (Sleep)
-5. wl-logout (Logout menu)
+5. wlogout (Logout menu)
 6. waybar (Status bar)
 8. networkmanager (Network connection)
 10. rofi (Menu)
